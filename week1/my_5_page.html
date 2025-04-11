@@ -9,15 +9,17 @@
 </head>
 
 <body>
-    <h2>กรุณากรอกชื่อ</h2>
-    <input type="text" placeholder="กรุณากรอกชื่อ" id="name-input"/> 
-    
-    <h1 id="show-name">-</h1>
+    <h2>กรอกอายุ</h2>
+    <input type="number" id="age-input"/>
     <script>
-    document.getElementById("name-input").addEventListener("input", function(){
-        const value = this.value;
-        document.getElementById("show-name").innerText = "สวัสดี : " + value
-    });
+        document.getElementById("age-input").addEventListener("input", function () {
+            const value = this.value;
+            if (value < 20) {
+                alert("คุณยังไม่บรรลุนิติภาวะ");
+            } else {
+                alert("คุณบรรลุนิติภาวะแล้ว");
+            }
+        });
     </script>
 </body>
 
