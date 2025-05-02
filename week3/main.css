@@ -89,24 +89,22 @@ font
 .section3-box {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
     border-radius: 10px;
 }
 .section3-box-a {
+    width: 100%;
     background-color: rgb(206, 195, 195);
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
-    width: 80%;
     text-align: flex-start;
 }
 .section3-box-b {
+    width: 100%;
     background-color: rgb(195, 195, 206);
     padding: 20px;
     border-radius: 10px;
     margin: 10px;
-    width: 80%;
     text-align: flex-start;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
